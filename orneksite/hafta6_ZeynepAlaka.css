@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body,html{
+    height: 100%;
+}
+nav{
+    position: absolute;
+    z-index: 2;
+    height: 100px ;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+
+}
+nav a{
+    color: rgb(167, 157, 224);
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    text-decoration:none;/*altçizgi gidiyor*/
+    margin-left: 20px;/*kenar boşluğunu ayarlıyor*/
+    padding: 12px 12px;/* aşağı yukarı ,sağ soldan değeri için*/
+
+
+}
+nav a:hover{
+    background-color:#ecf0f1 ;/* hoverlama işlemi ise üzerine geldiğimizde arka tarfta istediğimiz rengin kutu şeklinde karşımıza çıkıyor.*/
+}
+
+.gorsel
+{
+    height: 100%;
+    background-color: rgb(132, 142, 173);
+    background-size: cover; /*fotoları tam olarak yerleştirmeyi sağlıyor.*/
+    background-attachment: fixed;/*fotoğraflar sabit oluyor ve bantlar üzerinden gidiyor.*/
+
+}
+.bant{
+    height: 30%;
+    background-color: rgb(140, 141, 136);
+}
+#gor1{
+   
+    background-image: url(https://c.wallhere.com/photos/4c/60/2048x1152_px_bokeh_flowers_Lavender_Lilac_nature-1745795.jpg!d);
+}
+#gor2
+{
+    background-image: url(https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg);
+}
+#gor3{
+    background-image: url(https://cdn.pixabay.com/photo/2018/09/19/23/03/sunset-3689760_960_720.jpg);
+}
+.anasayfa{
+    position: absolute;
+    float:left;
+}
+.anayazi{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    text-align: center;/*yazıları ortalar*/
+    margin-top: 200px;/*yazıyı aşağı almış oluruz.*/
+    font-size: 35px;
+    color: rgb(207, 200, 212);
+
+}
+.anafiltre{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.34;/*opaklığını düşürür*/
+    z-index: 0;
+}
+.anayazi h1{
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    font-size: 90px;
+}
+.anayazi p{
+    font-family: 'Bitter', serif;
+    font-size: 15px;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+.anayazi span{
+    color: #ffff;
+    padding: 10px 10px;
+    background-color: rgb(96, 61, 121);
+    font-size: 12px;
+    border: 1px solid ;
+    font-family: 'Bitter', serif;
+    border-radius: 5px;/*kenarı oval yapar*/
+    
+}
+.anayazi span:hover{
+    background-color: rgb(240, 238, 241);
+    color: rgb(113, 96, 212);
+    cursor: pointer;
+}
+.anayazi table, th, tr, td{
+    border: 2px solid rgb(124, 124, 124);
+    width: 70%;
+    height: 50%;
+    
+}
+.anayazi table{
+    border: 10px solid rgb(163, 180, 185);
+    border-radius: 9px;
+    text-align: center;
+}
+.gallery{
+position: relative;
+
+    
+}
+div.gallery {
+    margin: 5px;
+    border: 2px solid #ccc;
+    float: left;
+    width: 250px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color: lavender;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  h2{
+      color: lavender;
+      text-align: center;
+      font-size: 45px;
+      font-family: 'Kaushan Script', cursive;
+  }
+  ol {
+    background: #bd9d7f;
+    padding: 20px;
+  }
+  
+  ul {
+    background: #5a4c41;
+    padding: 20px;
+  }
+  
+  ol li {
+    background: #c0b3a2;
+    padding: 5px;
+    margin-left: 35px;
+  }
+  
+  ul li {
+    background: #9e876d;
+    margin: 5px;
+  }
+

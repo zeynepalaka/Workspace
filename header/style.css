@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,900;1,300;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Poppins&family=Scope+One&display=swap');
+@import url("https://rsms.me/inter/inter.css");
+
+*,
+*::before,
+*::after{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+border: 0;
+font-family: 'Poppins', sans-serif;
+}
+a,
+a:link,
+a:visited{
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+section,p,span{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+#head{
+    position: fixed;
+    z-index: 15;
+    width: 100%;
+    background: transparent;
+}
+ .navbar-brand{
+    font-size: 2em;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+}
+.navbar{
+    padding: 20px 0;
+}
+.banner{
+    position: relative;
+    background:url(./image/menu.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.nav-item a{
+  color: #fff; 
+}
+.navbar-dark .navbar-nav  .nav-link{
+ padding: 10px 20px;
+ color: #fff;
+}
+.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+ background-color: rgb(155, 92, 41);
+ color:#fff;
+ border-radius: 50px;
+
+}
+.navbar-dark .navbar-toggler{
+    color: #fff;
+    border:none;
+    outline: none;
+}
+
+.header-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+ h1{
+    font-size:8.5rem;
+    font-weight: 100;
+    line-height: 0.4;
+    letter-spacing: 2px;
+    font-family: 'Herr Von Muellerhoff', cursive;
+    color: rgb(187, 160, 134);
+}
+.first-letter{
+font-size: 10.3rem;
+font-family: 'Herr Von Muellerhoff', cursive;
+}
+.header-text h3{
+    margin-bottom: 30px;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 300;
+    font-style: italic;
+}
+.btn-hakkimda{
+    display: block;
+   background-color: rgb(187, 160, 134);;
+    color: rgb(155, 92, 41);
+    padding: 10px 15px;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius:35px ;
+    overflow: hidden;/*taşmayı engeller*/
+
+}

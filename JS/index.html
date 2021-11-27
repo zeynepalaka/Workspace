@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./ders1.js"></script>
+</head>
+
+<body>
+
+    <p id="result" class="test">JS KODLARIM.</p>
+    <!--<input type="button" value="Bas Bakalım" onclick="document.getElementById('result').innerHTML='Javascript içeriğe ulaştı ve değiştirdi.'">
+    Yukarıda yazdığımız js kodu html documentindeki id si result olan koda erişir ve onun içeriğini değiştirir. Fakat bu yöntemi her zaman kullanmak sağlıklı olmayabilir bu nedenle fonksiyon kullanarak işimizi daha kuulanılabilir hale getirebiliriz.-->
+
+
+    <input type="button" value="Bas Bakalım" onclick="Proccess();">
+
+    <input type="button" value="Open Light" onclick="OpenLight();">
+    <img src="img/of.png" alt="Light" id="picture">
+    <input type="button" value="Close Light" onclick="CloseLight();"><br>
+        <h2 id="resultCss">Css halini değirtmek için js kullanıyorum.</h2>
+    <input type="button" value="Change Css" onclick="changeCss();" >
+        <div id="veri"></div>
+
+
+    <noscript>Taraycınızda javascript kapalı olduğu için bu siteden yararlanamıyorsunuz.
+        Lütfen javascript aktif hale getiriniz.</noscript>
+
+
+</body>
+
+</html>
