@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=.result, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="result"></div>
+   <!-- <button type="button" onclick="Calculate();">Hesapla</button>-->
+    <script>
+       /* function Calculate() {
+            var x, y, z;
+            x = 2;
+            y = 3;
+            z = (x + y) * 4;
+            document.getElementById('result').innerHTML = "Sonuç: " + z;
+
+        }
+
+
+        function sum(par1, par2) {
+            alert(par1 + par2);
+        }
+        sum(5, 3);
+        sum(10, 32);
+
+        function sum(par1, par2) {
+            return par1 + par2;
+        }
+        document.getElementById('result').innerHTML = sum(5, 2) * 8;
+        document.write(sum(5, 15) / 2);
+       
+        ingilterenin sıcaklık biriminden bizim kendi sıcaklık birimimize çeviren program
+        function toCelcius(x){
+            return(5/9)*(x-32);
+        }
+        
+        document.write(" <br> Sıcaklığın karşılığı: <br>  "+toCelcius(59));
+
+        /*stringler fonksiyonlarda kullanımı
+        function getName(name,surname){
+            return name+" "+surname;
+        
+        }
+        document.write(getName(" <br> Zeynep","ALAKA"));
+        /*fonksiyon içerisinde fonksiyon nasıl yazılır.
+        function sum(data1,data2){
+            return data1+data2;
+        }
+        function Calculate(pr1,pr2){
+            return sum(pr1,pr2)*sum(pr1,pr2);
+        }
+        var getNumber=Calculate(4,5);
+        document.write("<br> Fonksiyon içinde fonksiyon kullanarak değerin sonucu: "+getNumber);*/
+
+
+    /*fonksiyonda nesneler*/
+    
+        var car={
+            name:"Nisan",
+            model:"400A",
+            color:"Black",
+            start:function(){
+                return this.name+"  "+this.model+" çalıştırıldı";
+            },
+            drive:function(){
+                return this.name+"  "+this.model+" kullanılıyor";
+            },
+            brake:function(){
+                return this.name+"  "+this.model+" frene basıldı";
+            },
+            stop:function(){
+                return this.name+"  "+this.model+" durduruldu";
+            }
+        };
+        document.getElementById('result').innerHTML=car.start()+"<br>"+
+        car.drive()+"<br>"+
+        car.brake()+"<br>"+
+        car.stop()+"<br>";
+
+        document.getElementById('result').innerHTML=car["name"];/* ikinci çağırma yöntemi bu şekildede çağırabiiriz.*/
+        
+    </script>
+</body>
+
+</html>
