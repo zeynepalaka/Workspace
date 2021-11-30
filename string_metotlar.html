@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* String metotları stringlerle çalışmamıza yardımcı olurlar.
+        lenght özelliği bir stringin uzunluğunu döndürür.
+        indexOf() metodu, stringde belirtilen metnin ilk bulunduğu yerin 
+        dizinini(konumunu) döndürür. 
+        lastIndexOf() : son bulunduğu konumu döndürür.
+        metin bulunmazsa -1 değerini döndürü.
+        */  
+        var text="Javascript HTML CSS Angular.js Node.js PHP C#";
+            document.getElementById('result').innerHTML=text.length;
+            document.getElementById('result').innerHTML=text.indexOf("CSS");
+            document.getElementById('result').innerHTML=text.lastIndexOf("PHP");
+    </script>
+</body>
+</html>
