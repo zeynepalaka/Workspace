@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="result"></p>
+</body>
+<script>
+    show();
+    function show(){
+        var x=Math.round(6.7);//7
+        var y=Math.round(6.3);//6
+        var a=64;
+        var b=-70;
+
+        document.getElementById('result').innerHTML=x+"<br>" + y;//en yakın onluk tam sayıya çevirir.
+        document.getElementById('result').innerHTML=Math.PI;//pi sayısı hesaplar
+        document.getElementById('result').innerHTML=Math.pow(4,2); //üs alır
+        document.getElementById('result').innerHTML=Math.sqrt(a); //karekök alır       
+        document.getElementById('result').innerHTML=Math.abs(b);//mutlak değeri alır
+        document.getElementById('result').innerHTML=Math.max(120,20,30,-20,520,10,5);//max değeri hesaplar
+        document.getElementById('result').innerHTML=Math.floor(Math.random()*10+1);//random sayı üretir
+        
+    }
+</script>
+</html>
