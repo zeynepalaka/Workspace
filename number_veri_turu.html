@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="result"></p>
+</body>
+<script>
+    printScreen();
+    function printScreen(){
+        var x=7; //number
+        var y=3.14; //number
+        var z, c, v;
+        z=128;//onluk sistem
+        c=z.toString(16);//onaltılık sistem
+        v=z.toString(8);//sekizlik sistem
+        c=z.toString(2);//ikilik sistem
+        /*Sayılar nesne olabilir*/
+        var a,b;
+        a=700; //number
+        b=new Number(700);//object
+        document.getElementById('result').innerHTML=typeof a+"<br>"+typeof b;
+
+        document.getElementById('result').innerHTML=typeof x;
+        document.getElementById('result').innerHTML=typeof y;
+        //NaN = not a number
+        //isNaN= bir sayı var mı yok mu onun sorgusu için kullanılır
+    }
+</script>
+</html>
